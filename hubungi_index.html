@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - Apotek L A</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/panduan.css">
+</head>
+<body>
+    <header>
+         <h1>Hubungi Kami</h1>
+         
+        
+                <div class="contact">
+   <div class="contact-item">
+                <img src="../img/telepone.png" alt="Phone">
+                <span>+6285210669197</span>
+            </div>
+            <div class="contact-item">
+                <img src="../img/wa.png" alt="WhatsApp">
+                <span>+6285210669197</span>
+            </div>
+            <div class="contact-item">
+                <img src="../img/email.png" alt="Email">
+                <span>apotekla.shop@gmail.com</span>
+            </div>
+      
+    </header>
+    <div class="menu-section">
+        <div class="menu-item">
+            <a href="index.php">Home</a>
+        </div>
+        <div class="menu-item">
+            <a href="produk_index.php">Produk</a>
+        </div>
+      
+       
+       
+       
+
+    <div class="contact-section">
+       
+        <p>Jika Anda memiliki pertanyaan atau memerlukan bantuan, jangan ragu untuk menghubungi kami melalui form di bawah ini.</p>
+
+        <div class="contact-container">
+            <!-- Form Kontak -->
+            <form method="POST" action="../Admin/pelanggan.php">
+                <input type="text" name="nama" placeholder="Masukkan nama Anda" required>
+                <input type="email" name="email" placeholder="Masukkan email Anda" required>
+                <textarea name="pesan" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+
+            <!-- Detail Kontak -->
+            <div class="contact-details">
+                <h3>Detail Kontak</h3>
+                <p><b>Alamat:</b> Pasar Pramuka, Lantai Dasar, Palmeriam, Kota Jakarta Timur, DKI Jakarta</p>
+                <p><b>Telepon:</b> +62 852 1066 9197</p>
+                <p><b>Email:</b> apotekla.shop@gmail.com</p>
+                <h3>Lokasi Kami</h3>
+                <div class="map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.83544670336!2d106.8287184158764!3d-6.175392295535437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5e4b59cbefb%3A0xb31715b1ec5a1254!2sJakarta!5e0!3m2!1sen!2sid!4v1619170342390!5m2!1sen!2sid" 
+                        height="250" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+         <p>&copy; 2025 Apotek L A. Semua Hak Dilindungi.</p>
+        <a href="privasi">Design by</a> | <a href="syarat">Yurey Developer</a>
+    </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
